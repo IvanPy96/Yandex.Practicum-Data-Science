@@ -1,16 +1,12 @@
-# Patterns that determine the success of game platforms
+# Анализ рынка компьютерных игр
 
-#### Task: 
-- Using historical data on sales of computer games, user and expert ratings, genres and platforms, identify patterns that determine the success of a game
+#### Задание: 
+- Используя исторические данные о продажах компьютерных игр, рейтинги пользователей и экспертов, жанры и платформы, выявить закономерности, определяющие успех игры
 
 #### Description:
-- The online store sells computer games all over the world. Historical data on game sales, user and expert ratings, genres and platforms are available from open sources. The parameters that determine the success of the game in different regions of the world are revealed. Potentially popular product identified and advertising campaigns planned. The current period for analysis has been selected. Portraits of users of each region were compiled. Hypotheses tested: average user ratings for Xbox One and PC platforms are the same; the average user ratings for the Action and Sports genres are different. The analysis used Student's t test for independent samples
+- Вы работаете в интернет-магазине «Стримчик», который продаёт по всему миру компьютерные игры. Из открытых источников доступны исторические данные о продажах игр, оценки пользователей и экспертов, жанры и платформы (например, Xbox или PlayStation). Вам нужно выявить определяющие успешность игры закономерности. Это позволит сделать ставку на потенциально популярный продукт и спланировать рекламные кампании.
+Перед вами данные до 2016 года. Представим, что сейчас декабрь 2016 г., и вы планируете кампанию на 2017-й. Нужно отработать принцип работы с данными. Неважно, прогнозируете ли вы продажи на 2017 год по данным 2016-го или же 2027-й — по данным 2026 года.
 
-#### Scope of Activities: 
-- Gamedev, Online Stores, Digital Agencies / Marketing / PR / SEO, Business Services [b2b] (outsourcing consulting audit), Startups, IT Company
+#### Библиотеки:
+- pandas, numpy, matplotlib, seaborn, scipy, math
 
-#### Used Libraries:
-- Python, Pandas, numpy, Matplotlib, data preprocessing, exploratory data analysis, descriptive statistics, statistical hypothesis testing, Seaborn, SciPy
-
-#### tags:
-- data processing, histogram, boxplot, statistical test, Student's test, piechart, game analyst, game analyst, game project analyst, product analyst, product analyst, gamedev analyst, gamedev analyst
