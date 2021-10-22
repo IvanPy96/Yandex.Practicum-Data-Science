@@ -1,16 +1,12 @@
-# Development of new oil fields
+# Выбор локации для скважины
 
-#### Task: 
-- Decide in which region to extract oil. Build a machine learning model that will help determine the region where mining will bring the most profit with the least risk of loss.
+#### Задача: 
+- Решите, в каком регионе добывать нефть. Постройте модель машинного обучения, которая поможет определить регион, где добыча принесет наибольшую прибыль при наименьшем риске потерь
 
-#### Description:
-- The production company GlavRosGosNeft needs to decide where to drill a new well. Collected characteristics of oil sample for wells: oil quality and volume of its reserves in three regions. The characteristics for each well in the region are already known. A model has been built to predict the volume of reserves in new wells. Wells with the highest estimated values were selected. The regions with the maximum total profit of the selected wells have been identified. A model has been built to determine the region where production will bring the greatest profit. Potential profits and risks were analyzed using Bootstrap technique.
+#### Описание:
+- Допустим, вы работаете в добывающей компании «ГлавРосГосНефть». Нужно решить, где бурить новую скважину.
+Вам предоставлены пробы нефти в трёх регионах. Характеристики для каждой скважины в регионе уже известны. Постройте модель для определения региона, где добыча принесёт наибольшую прибыль. Проанализируйте возможную прибыль и риски техникой Bootstrap.
 
-#### Scope of Activities: 
-- Services for business [b2b] (outsourcing consulting audit), IT company, Startups, Industry companies / Industry / Manufacturing
+#### Библиотеки:
+- pandas, numpy, matplotlib, seaborn, math, scipy, sklearn, lightGBM, catboost
 
-#### Used Libraries:
-- Pandas, sklearn, math, numpy, Seaborn, Matplotlib, SciPy, Bootstrap, Machine Learning
-
-#### tags:
-- A / B testing, Bootstrap, data science, machine learning, ML, Python, SQL, Git, Pandas, Numpy, Matplotlib, seaborn, Sklearn, Tableau, Spark, Hadoop, R, sci-py, Research, Kaggle, Algorithms, PyTorch, TensorFlow, CatBoost, xgboost, Support vector machines, gradient boosting, nonlinear optimization, clustering, random forest, descision trees, regression, Reinforcement Learning, OpenCV, PIL
