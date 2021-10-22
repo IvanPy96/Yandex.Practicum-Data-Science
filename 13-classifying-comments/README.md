@@ -1,16 +1,13 @@
-# Classifying comments
+# Проект для «Викишоп»
 
-#### Task: 
-- Speed up the moderation of comments in the community by automating their toxicity assessment. Train the model to classify comments as positive and negative.
+#### Задача: 
+- Обучите модель классифицировать комментарии как положительные и отрицательные
 
-#### Description:
-- To launch a new service, an online store needs a tool that will search for toxic comments and send them for moderation. Users can edit and add product descriptions, just like in community wikis. That is, clients suggest their edits and comment on others' changes. The model was trained to classify comments into positive and negative. Analyzed a dataset with markup on the toxicity of edits. A model with a quality metric F1 of at least 0.75 was built. Feature engineering is applied to texts and time series. Texts are vectorized using word2vec, GloVe, FastText.
+#### Описание:
+- Интернет-магазин «Викишоп» запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.
+Обучите модель классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок.
+Постройте модель со значением метрики качества F1 не меньше 0.75.
 
-#### Scope of Activities: 
-- Digital Agencies / Marketing / PR / SEO, Ads Platforms, Internet Services, Online Stores, Business Services [b2b] (outsourcing consulting audit), Startups, IT Company
+#### Библиотеки:
+- pandas, numpy, matplotlib, seaborn, re, sys, os, sklearn, ntlk, worlcloud, transformers, lightGBM
 
-#### Used Libraries:
-- Pandas, sklearn, numpy, NLTK, LightGBM, CatBoost, Machine Learning
-
-#### tags:
-- feature engineering, word2vec, GloVe, FastText, data science, machine learning, ML, Python, SQL, Git, Pandas, Numpy, Matplotlib, seaborn, Sklearn, Tableau, Spark, Hadoop, R, sci-py, Research, Kaggle, Algorithms , PyTorch, TensorFlow, CatBoost, xgboost, lgbm, light gmb, Support vector machines, gradient boosting, nonlinear optimization, clustering, random forest, descision trees, regression, Reinforcement Learning, OpenCV, PIL
