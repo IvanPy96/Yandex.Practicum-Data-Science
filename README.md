@@ -4,8 +4,8 @@
 Данный репозиторий содержит проекты, выполненные в ходе обучения по программе "Специалист по <a href="https://practicum.yandex.ru/data-scientist/">Data science</a><br>
 Каждый проект представлен в виде jupyter notebook с кодом на языке программирования Python и файла с описанием проекта.
 <br>
-  <a href="https://github.com/IvanPy96/Yandex.Practicum-Data-Science/blob/master/diploma_en.pdf"><b>Certificate of completion the course (English version)</b> :mortar_board: </a><br>
-    <a href="https://github.com/IvanPy96/Yandex.Practicum-Data-Science/blob/master/diploma.pdf"><b>Certificate of completion the course (Russian version)</b> :mortar_board: </a>
+  <a href="https://github.com/IvanPy96/Yandex.Practicum-Data-Science/blob/master/diploma_en.pdf"><b>Диплом об окончании курса (English version)</b> :mortar_board: </a><br>
+    <a href="https://github.com/IvanPy96/Yandex.Practicum-Data-Science/blob/master/diploma.pdf"><b>Диплом об окончании курса (Russian version)</b> :mortar_board: </a>
 </p><br>
 
 <table width=100% valign=top >
