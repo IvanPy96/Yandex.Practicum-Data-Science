@@ -1,23 +1,18 @@
-# Steel temperature
+# Температура стали
 
-#### Task: 
-- In order to optimize production costs, the steelworks of So Hardening Steel Ltd. decided to reduce the electricity consumption during the steel processing phase. You will have to build a model that predicts the temperature of the steel.
+#### Задача: 
+- Чтобы оптимизировать производственные расходы, металлургический комбинат ООО «Так закаляем сталь» решил уменьшить потребление электроэнергии на этапе обработки стали. Вам предстоит построить модель, которая предскажет температуру стали.
 
-#### Description:
-- Steel is processed in a metal ladle with a capacity of about 100 tons. To withstand the high temperatures, the ladle is lined with refractory bricks on the inside. Molten steel is poured into the ladle and heated to the desired temperature with graphite electrodes. These are installed in the ladle lid. 
+#### Описание:
+- Сталь обрабатывают в металлическом ковше вместимостью около 100 тонн. Чтобы ковш выдерживал высокие температуры, изнутри его облицовывают огнеупорным кирпичом. Расплавленную сталь заливают в ковш и подогревают до нужной температуры графитовыми электродами. Они установлены в крышке ковша.
 
-Sulfur is removed from the alloy (desulfurization), the chemical composition is corrected by adding impurities and samples are taken. The steel is alloyed - its composition is changed - by feeding pieces of alloy from the bulk material bin or wire through a special tribe (tribe, "mass").
+Из сплава выводится сера (десульфурация), добавлением примесей корректируется химический состав и отбираются пробы. Сталь легируют — изменяют её состав — подавая куски сплава из бункера для сыпучих материалов или проволоку через специальный трайб-аппарат (англ. tribe, «масса»).
 
-Before the alloying additives are introduced for the first time, the temperature of the steel is measured and a chemical analysis is made. Then the temperature is raised for a few minutes, the alloying materials are added and the alloy is purged with inert gas. It is then stirred and measured again. This cycle is repeated until the target chemical composition and optimum melting temperature are achieved.
+Перед тем как первый раз ввести легирующие добавки, измеряют температуру стали и производят её химический анализ. Потом температуру на несколько минут повышают, добавляют легирующие материалы и продувают сплав инертным газом. Затем его перемешивают и снова проводят измерения. Такой цикл повторяется до достижения целевого химического состава и оптимальной температуры плавки.
 
-Then the molten steel is sent for metal finishing or to the continuous casting machine. From there, the finished product comes out in the form of slab billets (*slab*, "slab").
+Тогда расплавленная сталь отправляется на доводку металла или поступает в машину непрерывной разливки. Оттуда готовый продукт выходит в виде заготовок-слябов (англ. slab, «плита»).
+
+#### Библиотеки:
+- pandas, numpy, matplotlib, seaborn, math, scipy, sklearn, lightGBM, catboost 
 
 
-#### Scope of Activities: 
-- ndustry companies / Industry / Industry, Services for business [b2b] (outsourcing consulting audit), IT-company, Startups, Services for business [b2b] (outsourcing consulting audit), IT company, Startups, Industry companies / Industry / Manufacturing
-
-#### Used Libraries:
-- Python, Pandas, Matplotlib, Seaborn, exploratory data analysis, data visualization, data preprocessing, math, machine learning, gradient boosting, numpy, 
-
-#### tags:
-- data science, machine learning, ML, Python, SQL, Git, Pandas, Numpy, Matplotlib, seaborn, Sklearn, Tableau, Spark, Hadoop, R, sci-py, Research, Kaggle, Algorithms, PyTorch, TensorFlow, CatBoost, xgboost, Support vector machines, gradient boosting, nonlinear optimization, clustering, random forest, descision trees, regression, Reinforcement Learning, OpenCV, PIL, A / B testing, Bootstrap, data science, machine learning, ML, Python, SQL, Git, Pandas, Numpy, Matplotlib, seaborn, Sklearn, Tableau, Spark, Hadoop, R, sci-py, Research, Kaggle, Algorithms, PyTorch, TensorFlow, CatBoost, xgboost, Support vector machines, gradient boosting, nonlinear optimization, clustering, random forest, descision trees, regression, Reinforcement Learning, OpenCV, PIL
